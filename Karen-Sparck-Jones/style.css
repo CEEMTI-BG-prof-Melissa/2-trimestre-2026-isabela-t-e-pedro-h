@@ -210,28 +210,29 @@ li {
     transform: scale(1.01);
 }
 
-article {
-    display: flex;
-    flex-wrap: wrap;
+.resumo {
+    display: inline-block;
     margin: 20px;
-    width: 95%;
+    width: 70%;
+    padding: 12px;
 }
 
-.container-texto-imagem {
-    display: flex;
-    flex-wrap: wrap; 
-    align-items: flex-end; 
-    gap: 10px;
-}
-
-.img-lateral {
-    width: auto;
-    height: 300px;
+.img-lateral{
+    display: inline-block;
+    width: 20%;
+    height: 250px;
     border-radius: 8px;
     margin: 10px;
+    vertical-align: top;
+}
+
+.img-lateral img{
+    width: 70%;
+    display: inline-block;
 }
 
 .texto-conteudo {
+    display: inline-block;
     flex: 1;
     width: 100%;
 }
